@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="update_1_20"
+version="1.0.0"
+displayName="Update 1.20"
+credits="GabrielDja Studio"
+displayURL="https://gabrieldjalayer.wixsite.com/gabrieldja-gaming-yt"
+logoFile="logo.png"
+authors="GabrielDja"
+description='''
+Minecraft Update 1.20!
+'''
+
+[[dependencies.update_1_20]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

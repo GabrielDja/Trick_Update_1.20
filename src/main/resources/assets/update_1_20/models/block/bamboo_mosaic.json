@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "update_1_20:blocks/bamboo_mosaic",
+    "up": "update_1_20:blocks/bamboo_mosaic",
+    "north": "update_1_20:blocks/bamboo_mosaic",
+    "east": "update_1_20:blocks/bamboo_mosaic",
+    "south": "update_1_20:blocks/bamboo_mosaic",
+    "west": "update_1_20:blocks/bamboo_mosaic",
+    "particle": "update_1_20:blocks/bamboo_mosaic"
+  },
+  "render_type": "solid"
+}

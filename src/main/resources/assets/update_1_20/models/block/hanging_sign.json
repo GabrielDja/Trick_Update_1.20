@@ -1,0 +1,9 @@
+{
+  "parent": "update_1_20:custom/hanging_sign",
+  "textures": {
+    "all": "update_1_20:blocks/oak_hanging_sign",
+    "particle": "update_1_20:blocks/oak_hanging_sign",
+    "0": "update_1_20:blocks/oak_hanging_sign"
+  },
+  "render_type": "translucent"
+}

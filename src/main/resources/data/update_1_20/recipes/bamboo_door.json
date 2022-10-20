@@ -1,0 +1,33 @@
+{
+  "group": "bamboo",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "update_1_20:bamboo_planks"
+    },
+    "1": {
+      "item": "update_1_20:bamboo_planks"
+    },
+    "2": {
+      "item": "update_1_20:bamboo_planks"
+    },
+    "3": {
+      "item": "update_1_20:bamboo_planks"
+    },
+    "4": {
+      "item": "update_1_20:bamboo_planks"
+    },
+    "5": {
+      "item": "update_1_20:bamboo_planks"
+    }
+  },
+  "result": {
+    "item": "update_1_20:bamboo_door",
+    "count": 3
+  }
+}

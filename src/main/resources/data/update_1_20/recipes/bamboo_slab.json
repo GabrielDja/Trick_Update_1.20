@@ -1,0 +1,22 @@
+{
+  "group": "bamboo",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "update_1_20:bamboo_planks"
+    },
+    "1": {
+      "item": "update_1_20:bamboo_planks"
+    },
+    "2": {
+      "item": "update_1_20:bamboo_planks"
+    }
+  },
+  "result": {
+    "item": "update_1_20:bamboo_slab",
+    "count": 6
+  }
+}

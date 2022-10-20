@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "update_1_20:blocks/bamboo_planks",
+    "bottom": "update_1_20:blocks/bamboo_planks",
+    "top": "update_1_20:blocks/bamboo_planks",
+    "side": "update_1_20:blocks/bamboo_planks"
+  },
+  "render_type": "solid"
+}

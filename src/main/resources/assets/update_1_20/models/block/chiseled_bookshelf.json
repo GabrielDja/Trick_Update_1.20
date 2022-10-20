@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "update_1_20:blocks/chiseled_bookshelf_top",
+    "up": "update_1_20:blocks/chiseled_bookshelf_top",
+    "north": "update_1_20:blocks/chiseled_bookshelf_stage6",
+    "east": "update_1_20:blocks/chiseled_bookshelf_side",
+    "south": "update_1_20:blocks/chiseled_bookshelf_side",
+    "west": "update_1_20:blocks/chiseled_bookshelf_side",
+    "particle": "update_1_20:blocks/chiseled_bookshelf_side"
+  },
+  "render_type": "solid"
+}
