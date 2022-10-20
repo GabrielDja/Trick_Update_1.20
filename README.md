@@ -4,9 +4,9 @@ This mod adds features of "Minecraft 1.20" according to the snapshots
 --------------------
 **Download**
 
-CurseForge : https://www.curseforge.com/minecraft/mc-mods/update-1-20
+CurseForge : https://www.curseforge.com/minecraft/mc-mods/trick_update-1-20
 
-Modrinth : https://modrinth.com/mod/update_1-20
+Modrinth : https://modrinth.com/mod/trick_update_1-20
 --------------------
 
 Changelog :
