@@ -11,7 +11,9 @@ Modrinth : https://modrinth.com/mod/trick_update_1-20
 
 Changelog :
 
-**Mod name changed: Update 1.20 -> Trick Update 1.20**
+**V1.1**
+
+Mod name changed: Update 1.20 -> Trick Update 1.20
 
 **New**
 
