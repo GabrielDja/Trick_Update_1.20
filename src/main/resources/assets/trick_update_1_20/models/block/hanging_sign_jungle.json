@@ -1,0 +1,9 @@
+{
+  "parent": "trick_update_1_20:custom/hanging_sign",
+  "textures": {
+    "all": "trick_update_1_20:blocks/jungle",
+    "particle": "trick_update_1_20:blocks/jungle",
+    "0": "trick_update_1_20:blocks/oak"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "trick_update_1_20:blocks/bamboo_mosaic",
+    "bottom": "trick_update_1_20:blocks/bamboo_mosaic",
+    "top": "trick_update_1_20:blocks/bamboo_mosaic",
+    "side": "trick_update_1_20:blocks/bamboo_mosaic"
+  },
+  "render_type": "solid"
+}

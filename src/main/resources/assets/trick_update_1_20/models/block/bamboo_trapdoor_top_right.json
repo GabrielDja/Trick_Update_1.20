@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_right",
+  "textures": {
+    "particle": "update_1_20:blocks/bamboo_door_bottom",
+    "bottom": "update_1_20:blocks/bamboo_door_bottom",
+    "top": "update_1_20:blocks/bamboo_door_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trick_update_1_20:block/hanging_sign_mangrove"
+    },
+    "facing=east": {
+      "model": "trick_update_1_20:block/hanging_sign_mangrove",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trick_update_1_20:block/hanging_sign_mangrove",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trick_update_1_20:block/hanging_sign_mangrove",
+      "y": 270
+    }
+  }
+}

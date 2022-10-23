@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "trick_update_1_20:bamboo_door",
+    "trick_update_1_20:bamboo_planks",
+    "trick_update_1_20:bamboo_mosaic",
+    "trick_update_1_20:bamboo_stair",
+    "trick_update_1_20:bamboo_mosaic_stair",
+    "trick_update_1_20:bamboo_slab",
+    "trick_update_1_20:bamboo_mosaic_slab",
+    "trick_update_1_20:bamboo_trapdoor",
+    "trick_update_1_20:bamboo_fence",
+    "trick_update_1_20:bamboo_fence_gate",
+    "trick_update_1_20:bamboo_pressure_plate",
+    "trick_update_1_20:bamboo_button",
+    "trick_update_1_20:chiseled_bookshelf",
+    "trick_update_1_20:hanging_sign_oak",
+    "trick_update_1_20:hanging_sign_spruce",
+    "trick_update_1_20:hanging_sign_dark_oak",
+    "trick_update_1_20:hanging_sign_mangrove",
+    "trick_update_1_20:hanging_sign_acacia",
+    "trick_update_1_20:hanging_sign_bamboo",
+    "trick_update_1_20:hanging_sign_birch",
+    "trick_update_1_20:hanging_sign_jungle",
+    "trick_update_1_20:hanging_sign_crimson",
+    "trick_update_1_20:hanging_sign_warped"
+  ]
+}

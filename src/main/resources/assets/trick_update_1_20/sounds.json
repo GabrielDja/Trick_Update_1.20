@@ -1,0 +1,56 @@
+{
+  "bamboo_door": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "trick_update_1_20:bamboo_door",
+        "stream": false
+      }
+    ]
+  },
+  "bamboo_block_break": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "trick_update_1_20:bamboo_wood_break",
+        "stream": false
+      }
+    ]
+  },
+  "bamboo_block_falling": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "trick_update_1_20:bamboo_wood_falling",
+        "stream": false
+      }
+    ]
+  },
+  "bamboo_block_breaking": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "trick_update_1_20:bamboo_wood_breaking",
+        "stream": false
+      }
+    ]
+  },
+  "bamboo_block_place": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "trick_update_1_20:bamboo_wood_place",
+        "stream": false
+      }
+    ]
+  },
+  "bamboo_block_footsteps": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "trick_update_1_20:bamboo_wood_footsteps",
+        "stream": false
+      }
+    ]
+  }
+}

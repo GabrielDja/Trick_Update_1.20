@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "trick_update_1_20:blocks/bamboo_planks",
+    "bottom": "trick_update_1_20:blocks/bamboo_planks",
+    "top": "trick_update_1_20:blocks/bamboo_planks",
+    "side": "trick_update_1_20:blocks/bamboo_planks"
+  },
+  "render_type": "solid"
+}

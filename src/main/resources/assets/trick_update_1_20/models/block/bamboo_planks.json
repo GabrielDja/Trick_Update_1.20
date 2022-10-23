@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "trick_update_1_20:blocks/bamboo_planks",
+    "up": "trick_update_1_20:blocks/bamboo_planks",
+    "north": "trick_update_1_20:blocks/bamboo_planks",
+    "east": "trick_update_1_20:blocks/bamboo_planks",
+    "south": "trick_update_1_20:blocks/bamboo_planks",
+    "west": "trick_update_1_20:blocks/bamboo_planks",
+    "particle": "trick_update_1_20:blocks/bamboo_planks"
+  },
+  "render_type": "solid"
+}

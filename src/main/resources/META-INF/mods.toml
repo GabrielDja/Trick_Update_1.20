@@ -3,9 +3,9 @@ loaderVersion="[43,)"
 license="All Rights Reserved"
 
 [[mods]]
-modId="update_1_20"
-version="1.0.0"
-displayName="Update 1.20"
+modId="trick_update_1_20"
+version="1.1.0"
+displayName="Trick Update 1.20"
 credits="GabrielDja Studio"
 displayURL="https://gabrieldjalayer.wixsite.com/gabrieldja-gaming-yt"
 logoFile="logo.png"
@@ -14,7 +14,7 @@ description='''
 Minecraft Update 1.20!
 '''
 
-[[dependencies.update_1_20]]
+[[dependencies.trick_update_1_20]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.19.2]"

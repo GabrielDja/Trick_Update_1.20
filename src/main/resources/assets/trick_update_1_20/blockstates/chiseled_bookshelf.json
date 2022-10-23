@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trick_update_1_20:block/chiseled_bookshelf"
+    },
+    "facing=east": {
+      "model": "trick_update_1_20:block/chiseled_bookshelf",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trick_update_1_20:block/chiseled_bookshelf",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trick_update_1_20:block/chiseled_bookshelf",
+      "y": 270
+    }
+  }
+}

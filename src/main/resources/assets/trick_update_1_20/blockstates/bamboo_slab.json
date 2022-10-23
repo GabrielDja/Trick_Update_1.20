@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "trick_update_1_20:block/bamboo_slab"
+    },
+    "type=top": {
+      "model": "trick_update_1_20:block/bamboo_slab_top"
+    },
+    "type=double": {
+      "model": "trick_update_1_20:block/bamboo_slab_full"
+    }
+  }
+}

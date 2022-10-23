@@ -1,0 +1,16 @@
+{
+  "group": "bamboo",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "trick_update_1_20:bamboo_planks"
+    }
+  },
+  "result": {
+    "item": "trick_update_1_20:bamboo_button",
+    "count": 1
+  }
+}

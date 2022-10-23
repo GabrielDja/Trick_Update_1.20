@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "trick_update_1_20:block/bamboo_pressure_plate"
+    },
+    "powered=true": {
+      "model": "trick_update_1_20:block/bamboo_pressure_plate_down"
+    }
+  }
+}
