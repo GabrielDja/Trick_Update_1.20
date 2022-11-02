@@ -11,22 +11,22 @@ Modrinth : https://modrinth.com/mod/trick_update_1-20
 
 Changelog :
 
-**V1.1**
+**V1.2**
 
-Mod name changed: Update 1.20 -> Trick Update 1.20
+**Updated version of Forge to 43.1.47**
 
 **New**
 
-- The new Sound Effects for Bamboo are here!
-- Added a new Creative Tab with all the new features of 1.20!
-- Added a new Bamboo Mosaic Staircase
-- Added a new Bamboo Mosaic Slab
+- Added the Raft
+- Added spawn eggs for the Ender Dragon, Iron Golem, Snow Golem and Wither.
+- Ender Dragon and Wither spawn eggs will only be available via commands
+- The Bamboo Mosaic block can be used as fuel now
+- The following blocks are now craftable: Bamboo Mosaic Slab, Bamboo Mosaic Stairs
+- Added the following item tag "fence_gates": acacia_fence_gate, birch_fence_gate, dark_oak_fence_gate, jungle_fence_gate, oak_fence_gate, spruce_fence_gate, crimson_fence_gate, warped_fence_gate, and mangrove_fence_gate
+- Reorganization of items in the creative tab "Trick Update 1.20
 
 **Improvements and Fixes**
 
-- Improved] You can now break all bamboo block variants with a wooden axe or higher (This will speed up the mining speed)
-- Improved] New Bamboo Door texture in the inventory!
-- Improved] Changed the strength and hardness of the following blocks: Bamboo Door, Bamboo Knob, Bamboo Barrier, Bamboo Gate, Bamboo Board, Bamboo Mosaic, Bamboo Pressure Plate, Bamboo Slab, Bamboo Stair, Bamboo Hatch and Chiseled Bookshelf
-- [Fix] The "Chiseled Bookshelf" block had a Y rotation
-- [Fix] Bamboo Door had transparency issues
-- [Fix] Bamboo Hatch had transparency problems
+- [Improvement] Reorganization of items in the creative tab "Trick Update 1.20
+- [Improvement] Improvement of some texture
+- [Fix] Fixed 10 bugs
