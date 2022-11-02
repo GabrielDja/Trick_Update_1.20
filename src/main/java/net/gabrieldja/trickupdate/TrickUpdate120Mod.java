@@ -30,6 +30,7 @@ import net.gabrieldja.trickupdate.init.TrickUpdate120ModTabs;
 import net.gabrieldja.trickupdate.init.TrickUpdate120ModSounds;
 import net.gabrieldja.trickupdate.init.TrickUpdate120ModMenus;
 import net.gabrieldja.trickupdate.init.TrickUpdate120ModItems;
+import net.gabrieldja.trickupdate.init.TrickUpdate120ModEntities;
 import net.gabrieldja.trickupdate.init.TrickUpdate120ModBlocks;
 import net.gabrieldja.trickupdate.init.TrickUpdate120ModBlockEntities;
 
@@ -52,7 +53,7 @@ public class TrickUpdate120Mod {
 		TrickUpdate120ModSounds.REGISTRY.register(bus);
 		TrickUpdate120ModBlocks.REGISTRY.register(bus);
 		TrickUpdate120ModItems.REGISTRY.register(bus);
-
+		TrickUpdate120ModEntities.REGISTRY.register(bus);
 		TrickUpdate120ModBlockEntities.REGISTRY.register(bus);
 
 		TrickUpdate120ModMenus.REGISTRY.register(bus);

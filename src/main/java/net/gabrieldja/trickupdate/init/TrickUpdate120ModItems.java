@@ -14,6 +14,11 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.gabrieldja.trickupdate.item.WitherSpawnEggItem;
+import net.gabrieldja.trickupdate.item.SpawnRaftItem;
+import net.gabrieldja.trickupdate.item.SnowGolemSpawnEggItem;
+import net.gabrieldja.trickupdate.item.IronGolemSpawnEggItem;
+import net.gabrieldja.trickupdate.item.EnderDragonSpawnEggItem;
 import net.gabrieldja.trickupdate.TrickUpdate120Mod;
 
 public class TrickUpdate120ModItems {
@@ -58,6 +63,12 @@ public class TrickUpdate120ModItems {
 			TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120);
 	public static final RegistryObject<Item> HANGING_SIGN_WARPED = block(TrickUpdate120ModBlocks.HANGING_SIGN_WARPED,
 			TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120);
+	public static final RegistryObject<Item> SPAWN_RAFT = REGISTRY.register("spawn_raft", () -> new SpawnRaftItem());
+	public static final RegistryObject<Item> IRON_GOLEM_SPAWN_EGG = REGISTRY.register("iron_golem_spawn_egg", () -> new IronGolemSpawnEggItem());
+	public static final RegistryObject<Item> SNOW_GOLEM_SPAWN_EGG = REGISTRY.register("snow_golem_spawn_egg", () -> new SnowGolemSpawnEggItem());
+	public static final RegistryObject<Item> WITHER_SPAWN_EGG = REGISTRY.register("wither_spawn_egg", () -> new WitherSpawnEggItem());
+	public static final RegistryObject<Item> ENDER_DRAGON_SPAWN_EGG = REGISTRY.register("ender_dragon_spawn_egg",
+			() -> new EnderDragonSpawnEggItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
