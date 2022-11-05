@@ -10,6 +10,8 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.gabrieldja.trickupdate.block.StructureBlockBlock;
+import net.gabrieldja.trickupdate.block.RepeatingCommandBlockBlock;
 import net.gabrieldja.trickupdate.block.HangingSignWarpedBlock;
 import net.gabrieldja.trickupdate.block.HangingSignSpruceBlock;
 import net.gabrieldja.trickupdate.block.HangingSignOakBlock;
@@ -20,7 +22,9 @@ import net.gabrieldja.trickupdate.block.HangingSignCrimsonBlock;
 import net.gabrieldja.trickupdate.block.HangingSignBirchBlock;
 import net.gabrieldja.trickupdate.block.HangingSignBambooBlock;
 import net.gabrieldja.trickupdate.block.HangingSignAcaciaBlock;
+import net.gabrieldja.trickupdate.block.CommandBlockBlock;
 import net.gabrieldja.trickupdate.block.ChiseledBookshelfBlock;
+import net.gabrieldja.trickupdate.block.ChainCommandBlockBlock;
 import net.gabrieldja.trickupdate.block.BambooTrapdoorBlock;
 import net.gabrieldja.trickupdate.block.BambooStairBlock;
 import net.gabrieldja.trickupdate.block.BambooSlabBlock;
@@ -62,4 +66,9 @@ public class TrickUpdate120ModBlocks {
 	public static final RegistryObject<Block> HANGING_SIGN_JUNGLE = REGISTRY.register("hanging_sign_jungle", () -> new HangingSignJungleBlock());
 	public static final RegistryObject<Block> HANGING_SIGN_CRIMSON = REGISTRY.register("hanging_sign_crimson", () -> new HangingSignCrimsonBlock());
 	public static final RegistryObject<Block> HANGING_SIGN_WARPED = REGISTRY.register("hanging_sign_warped", () -> new HangingSignWarpedBlock());
+	public static final RegistryObject<Block> COMMAND_BLOCK = REGISTRY.register("command_block", () -> new CommandBlockBlock());
+	public static final RegistryObject<Block> CHAIN_COMMAND_BLOCK = REGISTRY.register("chain_command_block", () -> new ChainCommandBlockBlock());
+	public static final RegistryObject<Block> REPEATING_COMMAND_BLOCK = REGISTRY.register("repeating_command_block",
+			() -> new RepeatingCommandBlockBlock());
+	public static final RegistryObject<Block> STRUCTURE_BLOCK = REGISTRY.register("structure_block", () -> new StructureBlockBlock());
 }

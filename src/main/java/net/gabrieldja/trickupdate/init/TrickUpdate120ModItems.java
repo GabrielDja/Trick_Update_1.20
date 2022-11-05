@@ -15,10 +15,14 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.gabrieldja.trickupdate.item.WitherSpawnEggItem;
+import net.gabrieldja.trickupdate.item.StructureVoidItem;
 import net.gabrieldja.trickupdate.item.SpawnRaftItem;
 import net.gabrieldja.trickupdate.item.SnowGolemSpawnEggItem;
+import net.gabrieldja.trickupdate.item.LigthBlockItem;
 import net.gabrieldja.trickupdate.item.IronGolemSpawnEggItem;
 import net.gabrieldja.trickupdate.item.EnderDragonSpawnEggItem;
+import net.gabrieldja.trickupdate.item.DebugStickItem;
+import net.gabrieldja.trickupdate.item.BarrierItem;
 import net.gabrieldja.trickupdate.TrickUpdate120Mod;
 
 public class TrickUpdate120ModItems {
@@ -66,6 +70,17 @@ public class TrickUpdate120ModItems {
 	public static final RegistryObject<Item> SPAWN_RAFT = REGISTRY.register("spawn_raft", () -> new SpawnRaftItem());
 	public static final RegistryObject<Item> IRON_GOLEM_SPAWN_EGG = REGISTRY.register("iron_golem_spawn_egg", () -> new IronGolemSpawnEggItem());
 	public static final RegistryObject<Item> SNOW_GOLEM_SPAWN_EGG = REGISTRY.register("snow_golem_spawn_egg", () -> new SnowGolemSpawnEggItem());
+	public static final RegistryObject<Item> COMMAND_BLOCK = block(TrickUpdate120ModBlocks.COMMAND_BLOCK, TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120);
+	public static final RegistryObject<Item> CHAIN_COMMAND_BLOCK = block(TrickUpdate120ModBlocks.CHAIN_COMMAND_BLOCK,
+			TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120);
+	public static final RegistryObject<Item> REPEATING_COMMAND_BLOCK = block(TrickUpdate120ModBlocks.REPEATING_COMMAND_BLOCK,
+			TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120);
+	public static final RegistryObject<Item> STRUCTURE_BLOCK = block(TrickUpdate120ModBlocks.STRUCTURE_BLOCK,
+			TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120);
+	public static final RegistryObject<Item> BARRIER = REGISTRY.register("barrier", () -> new BarrierItem());
+	public static final RegistryObject<Item> STRUCTURE_VOID = REGISTRY.register("structure_void", () -> new StructureVoidItem());
+	public static final RegistryObject<Item> LIGTH_BLOCK = REGISTRY.register("ligth_block", () -> new LigthBlockItem());
+	public static final RegistryObject<Item> DEBUG_STICK = REGISTRY.register("debug_stick", () -> new DebugStickItem());
 	public static final RegistryObject<Item> WITHER_SPAWN_EGG = REGISTRY.register("wither_spawn_egg", () -> new WitherSpawnEggItem());
 	public static final RegistryObject<Item> ENDER_DRAGON_SPAWN_EGG = REGISTRY.register("ender_dragon_spawn_egg",
 			() -> new EnderDragonSpawnEggItem());

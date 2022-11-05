@@ -1,0 +1,11 @@
+{
+  "parent": "trick_update_1_20:custom/repeating_command_block",
+  "textures": {
+    "all": "trick_update_1_20:blocks/repeating_command_block_back",
+    "particle": "trick_update_1_20:blocks/repeating_command_block_back",
+    "0": "trick_update_1_20:blocks/repeating_command_block_back",
+    "1": "trick_update_1_20:blocks/repeating_command_block_front",
+    "2": "trick_update_1_20:blocks/repeating_command_block_side"
+  },
+  "render_type": "solid"
+}
