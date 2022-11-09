@@ -3,7 +3,7 @@
   "textures": {
     "all": "trick_update_1_20:blocks/mangrove",
     "particle": "trick_update_1_20:blocks/mangrove",
-    "0": "trick_update_1_20:blocks/oak"
+    "0": "trick_update_1_20:blocks/mangrove"
   },
   "render_type": "cutout"
 }

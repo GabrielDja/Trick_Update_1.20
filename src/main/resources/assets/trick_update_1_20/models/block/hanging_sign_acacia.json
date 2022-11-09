@@ -3,7 +3,7 @@
   "textures": {
     "all": "trick_update_1_20:blocks/acacia",
     "particle": "trick_update_1_20:blocks/acacia",
-    "0": "trick_update_1_20:blocks/oak"
+    "0": "trick_update_1_20:blocks/acacia"
   },
   "render_type": "cutout"
 }

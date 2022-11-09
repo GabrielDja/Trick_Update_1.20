@@ -35,7 +35,7 @@ public class BambooDoorBlock extends DoorBlock {
 						() -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_place")),
 						() -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_breaking")),
 						() -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_falling"))))
-				.strength(3f).dynamicShape());
+				.strength(3f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape());
 	}
 
 	@Override

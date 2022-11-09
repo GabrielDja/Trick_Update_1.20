@@ -3,7 +3,7 @@
   "textures": {
     "all": "trick_update_1_20:blocks/crimson",
     "particle": "trick_update_1_20:blocks/crimson",
-    "0": "trick_update_1_20:blocks/oak"
+    "0": "trick_update_1_20:blocks/crimson"
   },
   "render_type": "cutout"
 }

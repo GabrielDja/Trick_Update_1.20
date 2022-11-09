@@ -2,41 +2,15 @@
   "group": "bamboo",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "0"
   ],
   "key": {
     "0": {
-      "item": "minecraft:bamboo"
-    },
-    "1": {
-      "item": "minecraft:bamboo"
-    },
-    "2": {
-      "item": "minecraft:bamboo"
-    },
-    "3": {
-      "item": "minecraft:bamboo"
-    },
-    "4": {
-      "item": "minecraft:bamboo"
-    },
-    "5": {
-      "item": "minecraft:bamboo"
-    },
-    "6": {
-      "item": "minecraft:bamboo"
-    },
-    "7": {
-      "item": "minecraft:bamboo"
-    },
-    "8": {
-      "item": "minecraft:bamboo"
+      "item": "trick_update_1_20:stripped_block_of_bamboo"
     }
   },
   "result": {
     "item": "trick_update_1_20:bamboo_planks",
-    "count": 1
+    "count": 2
   }
 }

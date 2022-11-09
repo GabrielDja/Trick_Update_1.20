@@ -3,7 +3,7 @@
   "textures": {
     "all": "trick_update_1_20:blocks/bamboo",
     "particle": "trick_update_1_20:blocks/bamboo",
-    "0": "trick_update_1_20:blocks/oak"
+    "0": "trick_update_1_20:blocks/bamboo"
   },
   "render_type": "cutout"
 }

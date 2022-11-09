@@ -3,7 +3,7 @@
   "textures": {
     "all": "trick_update_1_20:blocks/warped",
     "particle": "trick_update_1_20:blocks/warped",
-    "0": "trick_update_1_20:blocks/oak"
+    "0": "trick_update_1_20:blocks/warped"
   },
   "render_type": "cutout"
 }

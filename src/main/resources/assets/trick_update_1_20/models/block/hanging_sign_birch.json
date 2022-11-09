@@ -3,7 +3,7 @@
   "textures": {
     "all": "trick_update_1_20:blocks/birch",
     "particle": "trick_update_1_20:blocks/birch",
-    "0": "trick_update_1_20:blocks/oak"
+    "0": "trick_update_1_20:blocks/birch"
   },
   "render_type": "cutout"
 }

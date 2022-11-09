@@ -29,6 +29,10 @@ public class TrickUpdate120ModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, TrickUpdate120Mod.MODID);
 	public static final RegistryObject<Item> BAMBOO_DOOR = doubleBlock(TrickUpdate120ModBlocks.BAMBOO_DOOR,
 			TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120);
+	public static final RegistryObject<Item> BLOCK_OF_BAMBOO = block(TrickUpdate120ModBlocks.BLOCK_OF_BAMBOO,
+			TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120);
+	public static final RegistryObject<Item> STRIPPED_BLOCK_OF_BAMBOO = block(TrickUpdate120ModBlocks.STRIPPED_BLOCK_OF_BAMBOO,
+			TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120);
 	public static final RegistryObject<Item> BAMBOO_PLANKS = block(TrickUpdate120ModBlocks.BAMBOO_PLANKS, TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120);
 	public static final RegistryObject<Item> BAMBOO_MOSAIC = block(TrickUpdate120ModBlocks.BAMBOO_MOSAIC, TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120);
 	public static final RegistryObject<Item> BAMBOO_STAIR = block(TrickUpdate120ModBlocks.BAMBOO_STAIR, TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120);
@@ -45,8 +49,6 @@ public class TrickUpdate120ModItems {
 	public static final RegistryObject<Item> BAMBOO_PRESSURE_PLATE = block(TrickUpdate120ModBlocks.BAMBOO_PRESSURE_PLATE,
 			TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120);
 	public static final RegistryObject<Item> BAMBOO_BUTTON = block(TrickUpdate120ModBlocks.BAMBOO_BUTTON, TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120);
-	public static final RegistryObject<Item> CHISELED_BOOKSHELF = block(TrickUpdate120ModBlocks.CHISELED_BOOKSHELF,
-			TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120);
 	public static final RegistryObject<Item> HANGING_SIGN_OAK = block(TrickUpdate120ModBlocks.HANGING_SIGN_OAK,
 			TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120);
 	public static final RegistryObject<Item> HANGING_SIGN_SPRUCE = block(TrickUpdate120ModBlocks.HANGING_SIGN_SPRUCE,
@@ -81,6 +83,8 @@ public class TrickUpdate120ModItems {
 	public static final RegistryObject<Item> STRUCTURE_VOID = REGISTRY.register("structure_void", () -> new StructureVoidItem());
 	public static final RegistryObject<Item> LIGTH_BLOCK = REGISTRY.register("ligth_block", () -> new LigthBlockItem());
 	public static final RegistryObject<Item> DEBUG_STICK = REGISTRY.register("debug_stick", () -> new DebugStickItem());
+	public static final RegistryObject<Item> CHISELED_BOOKSHELF = block(TrickUpdate120ModBlocks.CHISELED_BOOKSHELF,
+			TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120);
 	public static final RegistryObject<Item> WITHER_SPAWN_EGG = REGISTRY.register("wither_spawn_egg", () -> new WitherSpawnEggItem());
 	public static final RegistryObject<Item> ENDER_DRAGON_SPAWN_EGG = REGISTRY.register("ender_dragon_spawn_egg",
 			() -> new EnderDragonSpawnEggItem());
