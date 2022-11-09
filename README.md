@@ -11,15 +11,16 @@ Modrinth : https://modrinth.com/mod/trick_update_1-20
 
 Changelog :
 
-**V1.3**
+**V1.4**
 
 **New**
-- Added the 3 Command Block Variants in the creative inventory!
-- Added the "Debug Stick" in the creative inventory
-- Added "Barrier" and "Structure Void" to the creative inventory
-- Added "Structure Block" to the creative inventory
-- Added the "Light Block" in the creative inventory
+- The Bamboo Block and the Stripped Bamboo Block have been added (With Craft)
+- You can bark the Bamboo Block as a Log!
+- You can now craft all "Hanging Sign" blocks
+- Updated the texture of the following items: "Bamboo Raft" and "Bamboo Raft with Chest
 
 **Improvements and Fixes**
-- Improvement] White Bear's Egg has been updated
-- Fix] Fixed some bug concerning the Command Block
+- [Improvement] New model for Hanging Signs
+- [Improved] Improved crafting for the "Bamboo Raft".
+- [Fix] Hanging Signs all had a Texture problem
+- [Fix] Fix the transparent parts of the following blocks: Bamboo Door and Bamboo Hatch
