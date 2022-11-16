@@ -41,7 +41,7 @@ public class BlockOfBambooBlock extends Block {
 						() -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_place")),
 						() -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_breaking")),
 						() -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_falling"))))
-				.strength(3f, 5f));
+				.strength(2f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
