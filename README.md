@@ -11,16 +11,15 @@ Modrinth : https://modrinth.com/mod/trick_update_1-20
 
 Changelog :
 
-**V1.4**
+**V1.5**
 
 **New**
-- The Bamboo Block and the Stripped Bamboo Block have been added (With Craft)
-- You can bark the Bamboo Block as a Log!
-- You can now craft all "Hanging Sign" blocks
-- Updated the texture of the following items: "Bamboo Raft" and "Bamboo Raft with Chest
+- You can now make a **"Bamboo Hanging Sign"** with Bamboo Bark Blocks
+- Tag : Added **"#bamboo_blocks"** block and item tags : **"bamboo_block"** and **"stripped_bamboo_block"**
+- Tag : Added **"bookshelf_books"** item tags : Contains book, written book and enchanted book
+- Tag : Added **"hanging_signs"** item tags : Contains all hanging sign items
 
-**Improvements and Fixes**
-- [Improvement] New model for Hanging Signs
-- [Improved] Improved crafting for the "Bamboo Raft".
-- [Fix] Hanging Signs all had a Texture problem
-- [Fix] Fix the transparent parts of the following blocks: Bamboo Door and Bamboo Hatch
+**Improvements and Corrections**
+- [Improvement] **"Block of Bamboo"** and **"Block of Stripped Bamboo"** Modification of their top textures
+- [Improvement] **"Bamboo Planks"** Modification of its texture to match the same tile pattern as the other plank variants
+- [Improvement] **"Block of Bamboo"** strength and hardness readjustment
