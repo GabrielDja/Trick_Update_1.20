@@ -52,5 +52,23 @@
         "stream": false
       }
     ]
+  },
+  "chiseled-bookshelf_insert-book": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "trick_update_1_20:chiseled_bookshelf_insert1",
+        "stream": false
+      }
+    ]
+  },
+  "chiseled-bookshelf_pickup-book": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "trick_update_1_20:chiseled_bookshelf_pickup2",
+        "stream": false
+      }
+    ]
   }
 }
