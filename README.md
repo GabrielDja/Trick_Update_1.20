@@ -11,15 +11,12 @@ Modrinth : https://modrinth.com/mod/trick_update_1-20
 
 Changelog :
 
-**V1.5**
+**V1.6**
 
 **New**
-- You can now make a **"Bamboo Hanging Sign"** with Bamboo Bark Blocks
-- Tag : Added **"#bamboo_blocks"** block and item tags : **"bamboo_block"** and **"stripped_bamboo_block"**
-- Tag : Added **"bookshelf_books"** item tags : Contains book, written book and enchanted book
-- Tag : Added **"hanging_signs"** item tags : Contains all hanging sign items
+- Added Craft for the Chiseled Bookshelf
+- When an item is placed in the Chiseled Bookshelf it will make a sound
+- New Interface Texture for the Chiseled Bookshelf!
 
-**Improvements and Corrections**
-- [Improvement] **"Block of Bamboo"** and **"Block of Stripped Bamboo"** Modification of their top textures
-- [Improvement] **"Bamboo Planks"** Modification of its texture to match the same tile pattern as the other plank variants
-- [Improvement] **"Block of Bamboo"** strength and hardness readjustment
+**Improvements and Fixes**
+- Improvement] The mining particles of the Chiseled Bookshelf have been changed 
