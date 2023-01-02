@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:crimson_fence",
+    "minecraft:spruce_fence",
+    "trick_update_1_20:bamboo_fence",
+    "minecraft:oak_fence",
+    "minecraft:warped_fence",
+    "minecraft:acacia_fence",
+    "minecraft:mangrove_fence",
+    "minecraft:birch_fence",
+    "minecraft:jungle_fence",
+    "minecraft:dark_oak_fence"
+  ]
+}
