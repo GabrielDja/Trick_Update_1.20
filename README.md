@@ -13,7 +13,15 @@ __________________
 
 Changelog :
 
-**V1.7**
+**V1.8**
+
+**Forge version updated to 43.2.0**
+
+**New**
+- New language added: French **(fr_fr)**
+- **Smithing Template (Coast Armor Trim)** item added with Armor and Crafts
+- Added the new "Cherry" wood variants
 
 **Improvements and Fixes**
-- Fix] Bamboo barriers don't connect...
+- [Improvement] Update of the Mod Credits 
+- [Fixed] The path of the Location was not correct
