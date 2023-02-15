@@ -43,10 +43,7 @@ import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
 
-public class ChiseledBookshelfBlock extends Block
-		implements
-
-			EntityBlock {
+public class ChiseledBookshelfBlock extends Block implements EntityBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public ChiseledBookshelfBlock() {

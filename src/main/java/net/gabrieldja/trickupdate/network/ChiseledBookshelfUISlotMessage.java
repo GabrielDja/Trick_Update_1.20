@@ -153,7 +153,6 @@ public class ChiseledBookshelfUISlotMessage {
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		TrickUpdate120Mod.addNetworkMessage(ChiseledBookshelfUISlotMessage.class, ChiseledBookshelfUISlotMessage::buffer,
-				ChiseledBookshelfUISlotMessage::new, ChiseledBookshelfUISlotMessage::handler);
+		TrickUpdate120Mod.addNetworkMessage(ChiseledBookshelfUISlotMessage.class, ChiseledBookshelfUISlotMessage::buffer, ChiseledBookshelfUISlotMessage::new, ChiseledBookshelfUISlotMessage::handler);
 	}
 }

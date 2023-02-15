@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trick_update_1_20:block/cherry_planks"
+    },
+    "facing=east": {
+      "model": "trick_update_1_20:block/cherry_planks",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trick_update_1_20:block/cherry_planks",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trick_update_1_20:block/cherry_planks",
+      "y": 270
+    }
+  }
+}

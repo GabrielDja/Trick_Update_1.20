@@ -17,8 +17,7 @@ public class SnowGolemSpawnEggItem extends Item {
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		super.useOn(context);
-		SnowGolemSpawnEggLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.execute(context.getLevel(), context.getClickedPos().getX(),
-				context.getClickedPos().getY(), context.getClickedPos().getZ());
+		SnowGolemSpawnEggLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ());
 		return InteractionResult.SUCCESS;
 	}
 }

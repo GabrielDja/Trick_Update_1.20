@@ -1,0 +1,9 @@
+{
+  "parent": "trick_update_1_20:custom/cherry_sapling",
+  "textures": {
+    "all": "trick_update_1_20:blocks/cherry_sapling",
+    "particle": "trick_update_1_20:blocks/cherry_sapling",
+    "plant": "trick_update_1_20:blocks/cherry_sapling"
+  },
+  "render_type": "cutout"
+}

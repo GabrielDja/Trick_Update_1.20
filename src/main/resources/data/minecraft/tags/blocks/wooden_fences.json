@@ -10,6 +10,7 @@
     "minecraft:mangrove_fence",
     "minecraft:birch_fence",
     "minecraft:jungle_fence",
-    "minecraft:dark_oak_fence"
+    "minecraft:dark_oak_fence",
+    "trick_update_1_20:fence_cherry"
   ]
 }

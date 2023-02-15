@@ -17,8 +17,7 @@ public class IronGolemSpawnEggItem extends Item {
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		super.useOn(context);
-		IronGolemSpawnEggLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.execute(context.getLevel(), context.getClickedPos().getX(),
-				context.getClickedPos().getY(), context.getClickedPos().getZ());
+		IronGolemSpawnEggLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ());
 		return InteractionResult.SUCCESS;
 	}
 }

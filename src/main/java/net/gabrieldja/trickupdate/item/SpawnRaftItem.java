@@ -17,8 +17,7 @@ public class SpawnRaftItem extends Item {
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		super.useOn(context);
-		SpawnRaftLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.execute(context.getLevel(), context.getClickedPos().getX(),
-				context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getPlayer());
+		SpawnRaftLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getPlayer());
 		return InteractionResult.SUCCESS;
 	}
 }

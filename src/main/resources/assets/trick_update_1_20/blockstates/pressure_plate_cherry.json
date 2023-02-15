@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "trick_update_1_20:block/pressure_plate_cherry"
+    },
+    "powered=true": {
+      "model": "trick_update_1_20:block/pressure_plate_cherry_down"
+    }
+  }
+}

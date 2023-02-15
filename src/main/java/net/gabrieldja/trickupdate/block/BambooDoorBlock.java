@@ -30,10 +30,8 @@ import java.util.Collections;
 public class BambooDoorBlock extends DoorBlock {
 	public BambooDoorBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_break")),
-						() -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_footsteps")),
-						() -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_place")),
-						() -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_breaking")),
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_break")), () -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_footsteps")),
+						() -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_place")), () -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_breaking")),
 						() -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_falling"))))
 				.strength(3f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape());
 	}
@@ -63,7 +61,6 @@ public class BambooDoorBlock extends DoorBlock {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-
 		BambooDoorLorsDunClicDroitSurLeBlocProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}

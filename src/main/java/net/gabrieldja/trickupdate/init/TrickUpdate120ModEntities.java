@@ -23,8 +23,7 @@ import net.gabrieldja.trickupdate.TrickUpdate120Mod;
 public class TrickUpdate120ModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, TrickUpdate120Mod.MODID);
 	public static final RegistryObject<EntityType<RaftEntity>> RAFT = register("raft",
-			EntityType.Builder.<RaftEntity>of(RaftEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
-					.setUpdateInterval(3).setCustomClientFactory(RaftEntity::new).fireImmune().sized(1.37f, 0.56f));
+			EntityType.Builder.<RaftEntity>of(RaftEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RaftEntity::new).fireImmune().sized(1.37f, 0.56f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

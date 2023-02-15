@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_left_open",
+  "textures": {
+    "particle": "trick_update_1_20:blocks/cherry_door_bottom",
+    "bottom": "trick_update_1_20:blocks/cherry_door_bottom",
+    "top": "trick_update_1_20:blocks/cherry_door_top"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "trick_update_1_20:blocks/cherry_planks",
+    "up": "trick_update_1_20:blocks/cherry_planks",
+    "north": "trick_update_1_20:blocks/cherry_planks",
+    "east": "trick_update_1_20:blocks/cherry_planks",
+    "south": "trick_update_1_20:blocks/cherry_planks",
+    "west": "trick_update_1_20:blocks/cherry_planks",
+    "particle": "trick_update_1_20:blocks/cherry_planks"
+  },
+  "render_type": "solid"
+}

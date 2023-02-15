@@ -16,8 +16,7 @@ public class EnderDragonSpawnEggItem extends Item {
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		super.useOn(context);
-		EnderDragonSpawnEggLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.execute(context.getLevel(), context.getClickedPos().getX(),
-				context.getClickedPos().getY(), context.getClickedPos().getZ());
+		EnderDragonSpawnEggLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ());
 		return InteractionResult.SUCCESS;
 	}
 }

@@ -36,16 +36,13 @@ public class Modelraft<T extends Entity> extends EntityModel<T> {
 		MeshDefinition meshdefinition = new MeshDefinition();
 		PartDefinition partdefinition = meshdefinition.getRoot();
 		PartDefinition bottom = partdefinition.addOrReplaceChild("bottom",
-				CubeListBuilder.create().texOffs(0, 0).addBox(-14.0F, -11.0F, 2.0F, 28.0F, 20.0F, 4.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
-						.addBox(-14.0F, -9.0F, -2.0F, 28.0F, 16.0F, 4.0F, new CubeDeformation(0.0F)),
+				CubeListBuilder.create().texOffs(0, 0).addBox(-14.0F, -11.0F, 2.0F, 28.0F, 20.0F, 4.0F, new CubeDeformation(0.0F)).texOffs(0, 0).addBox(-14.0F, -9.0F, -2.0F, 28.0F, 16.0F, 4.0F, new CubeDeformation(0.0F)),
 				PartPose.offsetAndRotation(1.0F, 21.0F, 0.0F, 0.0F, 1.5708F, -1.5708F));
 		PartDefinition paddle_left = partdefinition.addOrReplaceChild("paddle_left",
-				CubeListBuilder.create().texOffs(0, 24).addBox(-1.0F, 0.0F, -5.0F, 2.0F, 2.0F, 18.0F, new CubeDeformation(0.0F)).texOffs(0, 24)
-						.addBox(-1.001F, -3.0F, 8.0F, 1.0F, 6.0F, 7.0F, new CubeDeformation(0.0F)),
+				CubeListBuilder.create().texOffs(0, 24).addBox(-1.0F, 0.0F, -5.0F, 2.0F, 2.0F, 18.0F, new CubeDeformation(0.0F)).texOffs(0, 24).addBox(-1.001F, -3.0F, 8.0F, 1.0F, 6.0F, 7.0F, new CubeDeformation(0.0F)),
 				PartPose.offsetAndRotation(9.0F, 13.0F, -3.0F, 2.1642F, 0.8727F, 2.8798F));
 		PartDefinition paddle_right = partdefinition.addOrReplaceChild("paddle_right",
-				CubeListBuilder.create().texOffs(40, 24).addBox(-1.0F, 0.0F, -5.0F, 2.0F, 2.0F, 18.0F, new CubeDeformation(0.0F)).texOffs(40, 24)
-						.addBox(0.001F, -3.0F, 8.0F, 1.0F, 6.0F, 7.0F, new CubeDeformation(0.0F)),
+				CubeListBuilder.create().texOffs(40, 24).addBox(-1.0F, 0.0F, -5.0F, 2.0F, 2.0F, 18.0F, new CubeDeformation(0.0F)).texOffs(40, 24).addBox(0.001F, -3.0F, 8.0F, 1.0F, 6.0F, 7.0F, new CubeDeformation(0.0F)),
 				PartPose.offsetAndRotation(-9.0F, 13.0F, -3.0F, 2.1642F, -0.8727F, -2.8798F));
 		return LayerDefinition.create(meshdefinition, 128, 64);
 	}
@@ -55,8 +52,7 @@ public class Modelraft<T extends Entity> extends EntityModel<T> {
 	}
 
 	@Override
-	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green,
-			float blue, float alpha) {
+	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha) {
 		bottom.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
 		paddle_left.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
 		paddle_right.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);

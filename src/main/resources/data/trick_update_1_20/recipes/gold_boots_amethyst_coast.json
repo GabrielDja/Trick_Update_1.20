@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:golden_boots"
+  },
+  "addition": {
+    "item": "trick_update_1_20:coast_armor_trim"
+  },
+  "result": {
+    "item": "trick_update_1_20:gold_armor_amethyst_coast_boots"
+  }
+}

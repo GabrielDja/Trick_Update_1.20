@@ -21,10 +21,8 @@ public class BambooPressurePlateBlock extends PressurePlateBlock {
 	public BambooPressurePlateBlock() {
 		super(Sensitivity.MOBS,
 				BlockBehaviour.Properties.of(Material.STONE)
-						.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_break")),
-								() -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_footsteps")),
-								() -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_place")),
-								() -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_breaking")),
+						.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_break")), () -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_footsteps")),
+								() -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_place")), () -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_breaking")),
 								() -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_falling"))))
 						.strength(0.5f).dynamicShape());
 	}

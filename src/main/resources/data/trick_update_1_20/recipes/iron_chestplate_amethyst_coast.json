@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_chestplate"
+  },
+  "addition": {
+    "item": "trick_update_1_20:coast_armor_trim"
+  },
+  "result": {
+    "item": "trick_update_1_20:iron_armor_amethyst_coast_chestplate"
+  }
+}

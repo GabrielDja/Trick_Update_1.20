@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "trick_update_1_20:block/cherry_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "trick_update_1_20:block/cherry_wood"
+    },
+    "axis=z": {
+      "model": "trick_update_1_20:block/cherry_wood",
+      "x": 90
+    }
+  }
+}

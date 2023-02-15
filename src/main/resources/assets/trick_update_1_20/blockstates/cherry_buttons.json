@@ -1,0 +1,118 @@
+{
+  "variants": {
+    "face=floor,facing=east,powered=false": {
+      "model": "trick_update_1_20:block/cherry_buttons",
+      "y": 90
+    },
+    "face=floor,facing=west,powered=false": {
+      "model": "trick_update_1_20:block/cherry_buttons",
+      "y": 270
+    },
+    "face=floor,facing=south,powered=false": {
+      "model": "trick_update_1_20:block/cherry_buttons",
+      "y": 180
+    },
+    "face=floor,facing=north,powered=false": {
+      "model": "trick_update_1_20:block/cherry_buttons"
+    },
+    "face=wall,facing=east,powered=false": {
+      "model": "trick_update_1_20:block/cherry_buttons",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "face=wall,facing=west,powered=false": {
+      "model": "trick_update_1_20:block/cherry_buttons",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "face=wall,facing=south,powered=false": {
+      "model": "trick_update_1_20:block/cherry_buttons",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "face=wall,facing=north,powered=false": {
+      "model": "trick_update_1_20:block/cherry_buttons",
+      "uvlock": true,
+      "x": 90
+    },
+    "face=ceiling,facing=east,powered=false": {
+      "model": "trick_update_1_20:block/cherry_buttons",
+      "x": 180,
+      "y": 270
+    },
+    "face=ceiling,facing=west,powered=false": {
+      "model": "trick_update_1_20:block/cherry_buttons",
+      "x": 180,
+      "y": 90
+    },
+    "face=ceiling,facing=south,powered=false": {
+      "model": "trick_update_1_20:block/cherry_buttons",
+      "x": 180
+    },
+    "face=ceiling,facing=north,powered=false": {
+      "model": "trick_update_1_20:block/cherry_buttons",
+      "x": 180,
+      "y": 180
+    },
+    "face=floor,facing=east,powered=true": {
+      "model": "trick_update_1_20:block/cherry_buttons_pressed",
+      "y": 90
+    },
+    "face=floor,facing=west,powered=true": {
+      "model": "trick_update_1_20:block/cherry_buttons_pressed",
+      "y": 270
+    },
+    "face=floor,facing=south,powered=true": {
+      "model": "trick_update_1_20:block/cherry_buttons_pressed",
+      "y": 180
+    },
+    "face=floor,facing=north,powered=true": {
+      "model": "trick_update_1_20:block/cherry_buttons_pressed"
+    },
+    "face=wall,facing=east,powered=true": {
+      "model": "trick_update_1_20:block/cherry_buttons_pressed",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "face=wall,facing=west,powered=true": {
+      "model": "trick_update_1_20:block/cherry_buttons_pressed",
+      "uvlock": true,
+      "x": 90,
+      "y": 270
+    },
+    "face=wall,facing=south,powered=true": {
+      "model": "trick_update_1_20:block/cherry_buttons_pressed",
+      "uvlock": true,
+      "x": 90,
+      "y": 180
+    },
+    "face=wall,facing=north,powered=true": {
+      "model": "trick_update_1_20:block/cherry_buttons_pressed",
+      "uvlock": true,
+      "x": 90
+    },
+    "face=ceiling,facing=east,powered=true": {
+      "model": "trick_update_1_20:block/cherry_buttons_pressed",
+      "x": 180,
+      "y": 270
+    },
+    "face=ceiling,facing=west,powered=true": {
+      "model": "trick_update_1_20:block/cherry_buttons_pressed",
+      "x": 180,
+      "y": 90
+    },
+    "face=ceiling,facing=south,powered=true": {
+      "model": "trick_update_1_20:block/cherry_buttons_pressed",
+      "x": 180
+    },
+    "face=ceiling,facing=north,powered=true": {
+      "model": "trick_update_1_20:block/cherry_buttons_pressed",
+      "x": 180,
+      "y": 180
+    }
+  }
+}
