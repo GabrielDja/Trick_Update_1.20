@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "trick_update_1_20:items/pink_petals"
+  },
+  "render_type": "translucent"
+}

@@ -15,6 +15,14 @@
     "trick_update_1_20:bamboo_fence_gate",
     "trick_update_1_20:bamboo_pressure_plate",
     "trick_update_1_20:bamboo_button",
+    "trick_update_1_20:cherry_log",
+    "trick_update_1_20:cherry_planks",
+    "trick_update_1_20:cherry_wood",
+    "trick_update_1_20:door_cherry",
+    "trick_update_1_20:cherry_trapdoor",
+    "trick_update_1_20:fence_gate_cherry",
+    "trick_update_1_20:cherry_buttons",
+    "trick_update_1_20:chiseled_bookshelf",
     "trick_update_1_20:hanging_sign_oak",
     "trick_update_1_20:hanging_sign_spruce",
     "trick_update_1_20:hanging_sign_dark_oak",
@@ -25,14 +33,6 @@
     "trick_update_1_20:hanging_sign_jungle",
     "trick_update_1_20:hanging_sign_crimson",
     "trick_update_1_20:hanging_sign_warped",
-    "trick_update_1_20:chiseled_bookshelf",
-    "trick_update_1_20:cherry_log",
-    "trick_update_1_20:cherry_planks",
-    "trick_update_1_20:cherry_wood",
-    "trick_update_1_20:hanging_sign_cherry",
-    "trick_update_1_20:door_cherry",
-    "trick_update_1_20:cherry_trapdoor",
-    "trick_update_1_20:cherry_buttons",
-    "trick_update_1_20:fence_gate_cherry"
+    "trick_update_1_20:hanging_sign_cherry"
   ]
 }

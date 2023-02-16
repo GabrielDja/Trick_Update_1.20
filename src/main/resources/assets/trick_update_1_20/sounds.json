@@ -70,5 +70,23 @@
         "stream": false
       }
     ]
+  },
+  "decorated-pot_place": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "trick_update_1_20:decorated_pot_place",
+        "stream": false
+      }
+    ]
+  },
+  "decorated-pot_break": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "trick_update_1_20:decorated_pot_break",
+        "stream": false
+      }
+    ]
   }
 }

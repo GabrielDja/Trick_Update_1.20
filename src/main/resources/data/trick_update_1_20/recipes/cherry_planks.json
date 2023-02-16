@@ -1,0 +1,16 @@
+{
+  "group": "cherry_planks",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "trick_update_1_20:cherry_log"
+    }
+  },
+  "result": {
+    "item": "trick_update_1_20:cherry_planks",
+    "count": 4
+  }
+}

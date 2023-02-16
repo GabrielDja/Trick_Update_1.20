@@ -1,0 +1,9 @@
+{
+  "parent": "trick_update_1_20:custom/torchflower",
+  "textures": {
+    "all": "trick_update_1_20:blocks/torchflower",
+    "particle": "trick_update_1_20:blocks/torchflower",
+    "torchflower": "trick_update_1_20:blocks/torchflower"
+  },
+  "render_type": "cutout"
+}

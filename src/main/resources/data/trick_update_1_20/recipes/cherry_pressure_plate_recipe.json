@@ -1,0 +1,19 @@
+{
+  "group": "cherry_pressure_plate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "trick_update_1_20:cherry_planks"
+    },
+    "1": {
+      "item": "trick_update_1_20:cherry_planks"
+    }
+  },
+  "result": {
+    "item": "trick_update_1_20:pressure_plate_cherry",
+    "count": 1
+  }
+}

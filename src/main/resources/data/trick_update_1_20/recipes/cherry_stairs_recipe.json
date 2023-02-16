@@ -1,0 +1,33 @@
+{
+  "group": "cherry_stairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "trick_update_1_20:cherry_planks"
+    },
+    "3": {
+      "item": "trick_update_1_20:cherry_planks"
+    },
+    "4": {
+      "item": "trick_update_1_20:cherry_planks"
+    },
+    "6": {
+      "item": "trick_update_1_20:cherry_planks"
+    },
+    "7": {
+      "item": "trick_update_1_20:cherry_planks"
+    },
+    "8": {
+      "item": "trick_update_1_20:cherry_planks"
+    }
+  },
+  "result": {
+    "item": "trick_update_1_20:cherry_stairs",
+    "count": 4
+  }
+}

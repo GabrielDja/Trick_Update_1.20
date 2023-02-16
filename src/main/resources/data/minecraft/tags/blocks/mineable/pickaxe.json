@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "trick_update_1_20:fence_cherry",
-    "trick_update_1_20:pressure_plate_cherry",
+    "trick_update_1_20:cherry_stairs",
     "trick_update_1_20:cherry_slab",
-    "trick_update_1_20:cherry_stairs"
+    "trick_update_1_20:fence_cherry",
+    "trick_update_1_20:pressure_plate_cherry"
   ]
 }

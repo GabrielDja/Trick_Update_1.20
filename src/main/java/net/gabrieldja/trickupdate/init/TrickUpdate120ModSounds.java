@@ -23,4 +23,6 @@ public class TrickUpdate120ModSounds {
 	public static final RegistryObject<SoundEvent> BAMBOO_BLOCK_FOOTSTEPS = REGISTRY.register("bamboo_block_footsteps", () -> new SoundEvent(new ResourceLocation("trick_update_1_20", "bamboo_block_footsteps")));
 	public static final RegistryObject<SoundEvent> CHISELED_BOOKSHELF_INSERT_BOOK = REGISTRY.register("chiseled-bookshelf_insert-book", () -> new SoundEvent(new ResourceLocation("trick_update_1_20", "chiseled-bookshelf_insert-book")));
 	public static final RegistryObject<SoundEvent> CHISELED_BOOKSHELF_PICKUP_BOOK = REGISTRY.register("chiseled-bookshelf_pickup-book", () -> new SoundEvent(new ResourceLocation("trick_update_1_20", "chiseled-bookshelf_pickup-book")));
+	public static final RegistryObject<SoundEvent> DECORATED_POT_PLACE = REGISTRY.register("decorated-pot_place", () -> new SoundEvent(new ResourceLocation("trick_update_1_20", "decorated-pot_place")));
+	public static final RegistryObject<SoundEvent> DECORATED_POT_BREAK = REGISTRY.register("decorated-pot_break", () -> new SoundEvent(new ResourceLocation("trick_update_1_20", "decorated-pot_break")));
 }

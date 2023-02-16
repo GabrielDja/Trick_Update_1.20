@@ -24,13 +24,14 @@ public class CherrySaplingLorsDunClicDroitSurLeBlocProcedure {
 				Entity _ent = entity;
 				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4,
-							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "clear @s bone_meal 1");
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), "clear @s[gamemode=!creative] bone_meal 1");
 				}
 			}
 			if (world instanceof ServerLevel _serverworld) {
 				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("trick_update_1_20", "cherry_tree"));
 				if (template != null) {
-					template.placeInWorld(_serverworld, new BlockPos(x - 1, y, z), new BlockPos(x - 1, y, z), new StructurePlaceSettings().setRotation(Rotation.CLOCKWISE_90).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
+					template.placeInWorld(_serverworld, new BlockPos(x + 2, y, z - 3), new BlockPos(x + 2, y, z - 3), new StructurePlaceSettings().setRotation(Rotation.CLOCKWISE_90).setMirror(Mirror.NONE).setIgnoreEntities(false),
+							_serverworld.random, 3);
 				}
 			}
 		}

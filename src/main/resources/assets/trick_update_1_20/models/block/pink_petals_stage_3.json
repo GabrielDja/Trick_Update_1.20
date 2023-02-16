@@ -1,0 +1,10 @@
+{
+  "parent": "trick_update_1_20:custom/flowerbed_stage2",
+  "textures": {
+    "all": "trick_update_1_20:blocks/pink_petals",
+    "particle": "trick_update_1_20:blocks/pink_petals",
+    "0": "trick_update_1_20:blocks/pink_petals",
+    "1": "trick_update_1_20:blocks/pink_petals_stem"
+  },
+  "render_type": "cutout"
+}

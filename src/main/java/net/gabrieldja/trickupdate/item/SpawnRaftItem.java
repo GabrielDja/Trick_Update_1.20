@@ -11,7 +11,7 @@ import net.gabrieldja.trickupdate.init.TrickUpdate120ModTabs;
 
 public class SpawnRaftItem extends Item {
 	public SpawnRaftItem() {
-		super(new Item.Properties().tab(TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120).stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override

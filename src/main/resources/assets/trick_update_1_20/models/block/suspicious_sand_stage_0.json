@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "trick_update_1_20:blocks/suspicious_sand_0",
+    "particle": "trick_update_1_20:blocks/suspicious_sand_0"
+  },
+  "render_type": "solid"
+}

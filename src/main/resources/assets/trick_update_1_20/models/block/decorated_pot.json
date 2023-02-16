@@ -1,0 +1,10 @@
+{
+  "parent": "trick_update_1_20:custom/decorated_pot",
+  "textures": {
+    "all": "trick_update_1_20:blocks/decorated_pot_base",
+    "particle": "trick_update_1_20:blocks/decorated_pot_side",
+    "side": "trick_update_1_20:blocks/decorated_pot_side",
+    "base": "trick_update_1_20:blocks/decorated_pot_base"
+  },
+  "render_type": "solid"
+}

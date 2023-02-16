@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.gabrieldja.trickupdate.entity.RaftEntity;
+import net.gabrieldja.trickupdate.entity.CherryBoatEntity;
 import net.gabrieldja.trickupdate.TrickUpdate120Mod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -24,6 +25,10 @@ public class TrickUpdate120ModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, TrickUpdate120Mod.MODID);
 	public static final RegistryObject<EntityType<RaftEntity>> RAFT = register("raft",
 			EntityType.Builder.<RaftEntity>of(RaftEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RaftEntity::new).fireImmune().sized(1.37f, 0.56f));
+	public static final RegistryObject<EntityType<CherryBoatEntity>> CHERRY_BOAT = register("cherry_boat",
+			EntityType.Builder.<CherryBoatEntity>of(CherryBoatEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CherryBoatEntity::new)
+
+					.sized(1.37f, 0.56f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -33,11 +38,13 @@ public class TrickUpdate120ModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			RaftEntity.init();
+			CherryBoatEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(RAFT.get(), RaftEntity.createAttributes().build());
+		event.put(CHERRY_BOAT.get(), CherryBoatEntity.createAttributes().build());
 	}
 }
