@@ -13,15 +13,21 @@ __________________
 
 Changelog :
 
-**V1.8**
-
-**Forge version updated to 43.2.0**
+**V1.9**
 
 **New**
-- New language added: French **(fr_fr)**
-- **Smithing Template (Coast Armor Trim)** item added with Armor and Crafts
-- Added the new "Cherry" wood variants
+- Cherry Tree Boat added
+- Crafts for Cherry Blocks have been added
+- Added Pink Petals
+- Added Brush **(Archaeology)**
+- Added Suspicious Sand **(Archaeology)**
+- Added Decorated Pot **(Archaeology)**
+- Added Torchflower
+- Added all Pottery Shard **(Archaeology)**
 
 **Improvements and Fixes**
-- [Improvement] Update of the Mod Credits 
-- [Fixed] The path of the Location was not correct
+- [Improvement] Improvement of the Cherry Trees **(Structure)**
+- [Improvement] Reorganization of the inventory
+- [Fix] Cherry Trees could not be crossed
+- [Fix] Bone powder decrease when used in Creative
+- [Fix] Raft was storable above 1
