@@ -1,0 +1,19 @@
+{
+  "group": "brush",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "trick_update_1_20:brush"
+    },
+    "1": {
+      "item": "trick_update_1_20:brush"
+    }
+  },
+  "result": {
+    "item": "trick_update_1_20:brush",
+    "count": 1
+  }
+}

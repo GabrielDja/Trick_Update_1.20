@@ -33,9 +33,11 @@ import net.gabrieldja.trickupdate.init.TrickUpdate120ModTabs;
 import net.gabrieldja.trickupdate.init.TrickUpdate120ModSounds;
 import net.gabrieldja.trickupdate.init.TrickUpdate120ModMenus;
 import net.gabrieldja.trickupdate.init.TrickUpdate120ModItems;
+import net.gabrieldja.trickupdate.init.TrickUpdate120ModFeatures;
 import net.gabrieldja.trickupdate.init.TrickUpdate120ModEntities;
 import net.gabrieldja.trickupdate.init.TrickUpdate120ModBlocks;
 import net.gabrieldja.trickupdate.init.TrickUpdate120ModBlockEntities;
+import net.gabrieldja.trickupdate.init.TrickUpdate120ModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -60,9 +62,10 @@ public class TrickUpdate120Mod {
 		TrickUpdate120ModItems.REGISTRY.register(bus);
 		TrickUpdate120ModEntities.REGISTRY.register(bus);
 		TrickUpdate120ModBlockEntities.REGISTRY.register(bus);
+		TrickUpdate120ModFeatures.REGISTRY.register(bus);
 
 		TrickUpdate120ModMenus.REGISTRY.register(bus);
-
+		TrickUpdate120ModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

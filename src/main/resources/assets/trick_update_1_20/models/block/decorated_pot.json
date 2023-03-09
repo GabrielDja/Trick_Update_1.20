@@ -3,8 +3,8 @@
   "textures": {
     "all": "trick_update_1_20:blocks/decorated_pot_base",
     "particle": "trick_update_1_20:blocks/decorated_pot_side",
-    "side": "trick_update_1_20:blocks/decorated_pot_side",
-    "base": "trick_update_1_20:blocks/decorated_pot_base"
+    "2": "trick_update_1_20:blocks/decorated_pot_base",
+    "side": "trick_update_1_20:blocks/decorated_pot_side"
   },
   "render_type": "solid"
 }

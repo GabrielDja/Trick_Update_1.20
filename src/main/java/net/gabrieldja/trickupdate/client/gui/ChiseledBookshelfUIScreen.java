@@ -1,4 +1,3 @@
-
 package net.gabrieldja.trickupdate.client.gui;
 
 import net.minecraft.world.level.Level;

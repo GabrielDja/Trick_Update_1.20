@@ -14,63 +14,132 @@
       ],
       "to": [
         11,
-        20,
+        17,
         11
       ],
       "faces": {
         "north": {
           "uv": [
-            3,
-            3,
-            6,
-            5
+            4,
+            5.5,
+            8,
+            6
           ],
-          "texture": "#base"
+          "texture": "#2"
         },
         "east": {
           "uv": [
             0,
-            3,
-            3,
-            5
+            5.5,
+            4,
+            6
           ],
-          "texture": "#base"
+          "texture": "#2"
         },
         "south": {
           "uv": [
-            9,
-            3,
-            12,
-            5
+            4,
+            5.5,
+            8,
+            6
           ],
-          "texture": "#base"
+          "texture": "#2"
         },
         "west": {
           "uv": [
-            6,
-            3,
-            9,
-            5
+            8,
+            5.5,
+            12,
+            6
           ],
-          "texture": "#base"
+          "texture": "#2"
         },
         "up": {
           "uv": [
-            6,
-            3,
-            3,
+            8,
+            4,
+            4,
             0
           ],
-          "texture": "#base"
+          "texture": "#2"
         },
         "down": {
           "uv": [
-            9,
+            12,
             0,
-            6,
-            3
+            8,
+            4
           ],
-          "texture": "#base"
+          "texture": "#2"
+        }
+      }
+    },
+    {
+      "name": "pot",
+      "from": [
+        4,
+        17,
+        4
+      ],
+      "to": [
+        12,
+        20,
+        12
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            4,
+            8,
+            6
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            0,
+            4,
+            4,
+            6
+          ],
+          "texture": "#2"
+        },
+        "south": {
+          "uv": [
+            4,
+            4,
+            8,
+            6
+          ],
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            8,
+            4,
+            12,
+            6
+          ],
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            8,
+            4,
+            4,
+            0
+          ],
+          "texture": "#2"
+        },
+        "down": {
+          "uv": [
+            12,
+            0,
+            8,
+            4
+          ],
+          "texture": "#2"
         }
       }
     },
@@ -90,20 +159,20 @@
         "up": {
           "uv": [
             7,
-            5,
+            6.5,
             0,
-            12
+            13.5
           ],
-          "texture": "#base"
+          "texture": "#2"
         },
         "down": {
           "uv": [
+            14,
+            6.5,
             7,
-            5,
-            0,
-            12
+            13.5
           ],
-          "texture": "#base"
+          "texture": "#2"
         }
       }
     },
@@ -325,7 +394,8 @@
       "armAnimationEnabled": false,
       "children": [
         0,
-        1
+        1,
+        2
       ]
     },
     {
@@ -339,7 +409,7 @@
       "nbt": "{}",
       "armAnimationEnabled": false,
       "children": [
-        2
+        3
       ]
     },
     {
@@ -353,7 +423,7 @@
       "nbt": "{}",
       "armAnimationEnabled": false,
       "children": [
-        3
+        4
       ]
     },
     {
@@ -367,7 +437,7 @@
       "nbt": "{}",
       "armAnimationEnabled": false,
       "children": [
-        4
+        5
       ]
     },
     {
@@ -381,7 +451,7 @@
       "nbt": "{}",
       "armAnimationEnabled": false,
       "children": [
-        5
+        6
       ]
     }
   ]

@@ -1,0 +1,11 @@
+{
+  "type": "trick_update_1_20:pink_petals_generation",
+  "config": {
+    "to_place": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "trick_update_1_20:pink_petals_stage_3"
+      }
+    }
+  }
+}

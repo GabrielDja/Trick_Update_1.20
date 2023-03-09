@@ -1,0 +1,15 @@
+{
+  "feature": "trick_update_1_20:pink_petals_generation",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 12
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
