@@ -13,21 +13,16 @@ __________________
 
 Changelog :
 
-**V1.9**
+**V2.0**
 
 **New**
-- Cherry Tree Boat added
-- Crafts for Cherry Blocks have been added
-- Added Pink Petals
-- Added Brush **(Archaeology)**
-- Added Suspicious Sand **(Archaeology)**
-- Added Decorated Pot **(Archaeology)**
-- Added Torchflower
-- Added all Pottery Shard **(Archaeology)**
+- You can now use the "**Torchflower**" in the crafting table to convert it into "**Orange Dye**".
+- The "**Torchflower**" can now be used to make a "**Suspicious Stew**".
+
 
 **Improvements and Fixes**
-- [Improvement] Improvement of the Cherry Trees **(Structure)**
-- [Improvement] Reorganization of the inventory
-- [Fix] Cherry Trees could not be crossed
-- [Fix] Bone powder decrease when used in Creative
-- [Fix] Raft was storable above 1
+- [Improvement] The texture of the block and item of the "**Cherry Door**" has been updated.
+- [Improvement] The textures of "**Cherry Sapling**" and "**Pink Petals**" have been updated.
+- [Improvement] The recipe for "**Brush**" now uses a Feather, Copper Ingot and Stick in a vertical line.
+- [Improvement] Updated the neck of the "**Decorated Pot**" model.
+- [Improvement] Textures for "**Cherry Leaves**" and "**Cherry Sign**" have been updated.
