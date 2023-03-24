@@ -13,16 +13,15 @@ __________________
 
 Changelog :
 
-**V2.0**
+**V2.1**
 
 **New**
-- You can now use the "**Torchflower**" in the crafting table to convert it into "**Orange Dye**".
-- The "**Torchflower**" can now be used to make a "**Suspicious Stew**".
-
+- New Plant "**Pitcher Pod**" added!
+- Added **Calibrated Sculk Sensor**"
+- Added "**Suspicious Gravel**"
+- Added all "**Smithing Template**" variants 
 
 **Improvements and Fixes**
-- [Improvement] The texture of the block and item of the "**Cherry Door**" has been updated.
-- [Improvement] The textures of "**Cherry Sapling**" and "**Pink Petals**" have been updated.
-- [Improvement] The recipe for "**Brush**" now uses a Feather, Copper Ingot and Stick in a vertical line.
-- [Improvement] Updated the neck of the "**Decorated Pot**" model.
-- [Improvement] Textures for "**Cherry Leaves**" and "**Cherry Sign**" have been updated.
+- [Improvement] Texture of "**Dune Armor Trim**" has been updated
+- [Fix] The "**Pitcher Pod**" will stay in the areas when a block was broken under it
+- [Fix] The Sculk does not produce any sound
