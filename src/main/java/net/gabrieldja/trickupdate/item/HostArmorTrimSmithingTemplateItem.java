@@ -12,18 +12,18 @@ import net.gabrieldja.trickupdate.init.TrickUpdate120ModTabs;
 
 import java.util.List;
 
-public class SmithingTemplateNetheriteUpgradeItem extends Item {
-	public SmithingTemplateNetheriteUpgradeItem() {
+public class HostArmorTrimSmithingTemplateItem extends Item {
+	public HostArmorTrimSmithingTemplateItem() {
 		super(new Item.Properties().tab(TrickUpdate120ModTabs.TAB_TRICK_UPDATE_120).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("Netherite Upgrade"));
+		list.add(Component.literal("Host Armor Trim"));
 		list.add(Component.literal("Applies to:"));
-		list.add(Component.literal("\u00A72Diamond Equipment"));
+		list.add(Component.literal("\u00A72Armor"));
 		list.add(Component.literal("Ingredients:"));
-		list.add(Component.literal("\u00A72Nethrite Ingot"));
+		list.add(Component.literal("\u00A72Ingot & Crystal"));
 	}
 }

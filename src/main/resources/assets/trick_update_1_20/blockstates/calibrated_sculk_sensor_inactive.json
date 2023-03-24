@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trick_update_1_20:block/calibrated_sculk_sensor_inactive"
+    },
+    "facing=east": {
+      "model": "trick_update_1_20:block/calibrated_sculk_sensor_inactive",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trick_update_1_20:block/calibrated_sculk_sensor_inactive",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trick_update_1_20:block/calibrated_sculk_sensor_inactive",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "trick_update_1_20:block/calibrated_sculk_sensor_inactive",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "trick_update_1_20:block/calibrated_sculk_sensor_inactive",
+      "x": 90
+    }
+  }
+}

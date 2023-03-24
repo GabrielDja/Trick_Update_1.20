@@ -1,0 +1,10 @@
+{
+  "parent": "trick_update_1_20:custom/pitcher_plant",
+  "textures": {
+    "all": "trick_update_1_20:blocks/pitcher_crop_bottom_stage_4",
+    "particle": "trick_update_1_20:blocks/pitcher_crop_top_stage_4",
+    "top": "trick_update_1_20:blocks/pitcher_crop_top_stage_4",
+    "bottom": "trick_update_1_20:blocks/pitcher_crop_bottom_stage_4"
+  },
+  "render_type": "cutout"
+}
