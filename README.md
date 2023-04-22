@@ -13,15 +13,12 @@ __________________
 
 Changelog :
 
-**V2.1**
+**V2.2**
 
 **New**
-- New Plant "**Pitcher Pod**" added!
-- Added **Calibrated Sculk Sensor**"
-- Added "**Suspicious Gravel**"
-- Added all "**Smithing Template**" variants 
+- New Panorama on the home screen!
 
 **Improvements and Fixes**
-- [Improvement] Texture of "**Dune Armor Trim**" has been updated
-- [Fix] The "**Pitcher Pod**" will stay in the areas when a block was broken under it
-- [Fix] The Sculk does not produce any sound
+- [Improvement] The model of "**Calibrated Sculk Sensor**" has been changed
+- [Improvement] The mining particles for "**Calibrated Sculk Sensor**" has been changed
+- [Fix] The version number was not updated

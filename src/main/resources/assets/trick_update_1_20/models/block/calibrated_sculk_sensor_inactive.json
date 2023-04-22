@@ -2,7 +2,7 @@
   "parent": "trick_update_1_20:custom/calibrated_sculk_sensor_inactive",
   "textures": {
     "all": "trick_update_1_20:blocks/sculk_sensor_bottom",
-    "particle": "trick_update_1_20:blocks/calibrated_sculk_sensor_top",
+    "particle": "trick_update_1_20:blocks/sculk_sensor_bottom",
     "calibrated_side": "trick_update_1_20:blocks/calibrated_sculk_sensor_input_side",
     "side": "trick_update_1_20:blocks/sculk_sensor_side",
     "top": "trick_update_1_20:blocks/calibrated_sculk_sensor_top",
