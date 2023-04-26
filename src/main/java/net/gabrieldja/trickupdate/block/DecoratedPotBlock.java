@@ -1,6 +1,7 @@
 
 package net.gabrieldja.trickupdate.block;
 
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.common.util.ForgeSoundType;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
@@ -13,7 +14,6 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
@@ -23,9 +23,9 @@ import java.util.Collections;
 public class DecoratedPotBlock extends Block {
 	public DecoratedPotBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("trick_update_1_20:decorated-pot_break")), () -> new SoundEvent(new ResourceLocation("trick_update_1_20:decorated-pot_break")),
-						() -> new SoundEvent(new ResourceLocation("trick_update_1_20:decorated-pot_place")), () -> new SoundEvent(new ResourceLocation("trick_update_1_20:decorated-pot_break")),
-						() -> new SoundEvent(new ResourceLocation("trick_update_1_20:decorated-pot_break"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("trick_update_1_20:decorated-pot_break")),
+						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("trick_update_1_20:decorated-pot_break")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("trick_update_1_20:decorated-pot_place")),
+						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("trick_update_1_20:decorated-pot_break")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("trick_update_1_20:decorated-pot_break"))))
 				.instabreak().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 

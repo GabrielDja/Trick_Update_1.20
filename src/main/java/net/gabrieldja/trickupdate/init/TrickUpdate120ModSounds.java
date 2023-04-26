@@ -25,4 +25,9 @@ public class TrickUpdate120ModSounds {
 	public static final RegistryObject<SoundEvent> CHISELED_BOOKSHELF_PICKUP_BOOK = REGISTRY.register("chiseled-bookshelf_pickup-book", () -> new SoundEvent(new ResourceLocation("trick_update_1_20", "chiseled-bookshelf_pickup-book")));
 	public static final RegistryObject<SoundEvent> DECORATED_POT_PLACE = REGISTRY.register("decorated-pot_place", () -> new SoundEvent(new ResourceLocation("trick_update_1_20", "decorated-pot_place")));
 	public static final RegistryObject<SoundEvent> DECORATED_POT_BREAK = REGISTRY.register("decorated-pot_break", () -> new SoundEvent(new ResourceLocation("trick_update_1_20", "decorated-pot_break")));
+	public static final RegistryObject<SoundEvent> ECHO_IN_THE_WIND = REGISTRY.register("echo_in_the_wind", () -> new SoundEvent(new ResourceLocation("trick_update_1_20", "echo_in_the_wind")));
+	public static final RegistryObject<SoundEvent> A_FAMILIAR_ROOM = REGISTRY.register("a_familiar_room", () -> new SoundEvent(new ResourceLocation("trick_update_1_20", "a_familiar_room")));
+	public static final RegistryObject<SoundEvent> CRESCENT_DUNES = REGISTRY.register("crescent_dunes", () -> new SoundEvent(new ResourceLocation("trick_update_1_20", "crescent_dunes")));
+	public static final RegistryObject<SoundEvent> BROMELIAD = REGISTRY.register("bromeliad", () -> new SoundEvent(new ResourceLocation("trick_update_1_20", "bromeliad")));
+	public static final RegistryObject<SoundEvent> RELIC = REGISTRY.register("relic", () -> new SoundEvent(new ResourceLocation("trick_update_1_20", "relic")));
 }

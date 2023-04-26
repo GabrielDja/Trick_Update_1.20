@@ -1,6 +1,5 @@
 {
   "bamboo_door": {
-    "category": "block",
     "sounds": [
       {
         "name": "trick_update_1_20:bamboo_door",
@@ -9,7 +8,6 @@
     ]
   },
   "bamboo_block_break": {
-    "category": "block",
     "sounds": [
       {
         "name": "trick_update_1_20:bamboo_wood_break",
@@ -18,7 +16,6 @@
     ]
   },
   "bamboo_block_falling": {
-    "category": "block",
     "sounds": [
       {
         "name": "trick_update_1_20:bamboo_wood_falling",
@@ -27,7 +24,6 @@
     ]
   },
   "bamboo_block_breaking": {
-    "category": "block",
     "sounds": [
       {
         "name": "trick_update_1_20:bamboo_wood_breaking",
@@ -36,7 +32,6 @@
     ]
   },
   "bamboo_block_place": {
-    "category": "block",
     "sounds": [
       {
         "name": "trick_update_1_20:bamboo_wood_place",
@@ -45,7 +40,6 @@
     ]
   },
   "bamboo_block_footsteps": {
-    "category": "block",
     "sounds": [
       {
         "name": "trick_update_1_20:bamboo_wood_footsteps",
@@ -54,7 +48,6 @@
     ]
   },
   "chiseled-bookshelf_insert-book": {
-    "category": "block",
     "sounds": [
       {
         "name": "trick_update_1_20:chiseled_bookshelf_insert1",
@@ -63,7 +56,6 @@
     ]
   },
   "chiseled-bookshelf_pickup-book": {
-    "category": "block",
     "sounds": [
       {
         "name": "trick_update_1_20:chiseled_bookshelf_pickup2",
@@ -72,7 +64,6 @@
     ]
   },
   "decorated-pot_place": {
-    "category": "block",
     "sounds": [
       {
         "name": "trick_update_1_20:decorated_pot_place",
@@ -81,11 +72,50 @@
     ]
   },
   "decorated-pot_break": {
-    "category": "block",
     "sounds": [
       {
         "name": "trick_update_1_20:decorated_pot_break",
         "stream": false
+      }
+    ]
+  },
+  "echo_in_the_wind": {
+    "sounds": [
+      {
+        "name": "trick_update_1_20:echo_in_the_wind",
+        "stream": true
+      }
+    ]
+  },
+  "a_familiar_room": {
+    "sounds": [
+      {
+        "name": "trick_update_1_20:a_familiar_room",
+        "stream": true
+      }
+    ]
+  },
+  "crescent_dunes": {
+    "sounds": [
+      {
+        "name": "trick_update_1_20:crescent_dunes",
+        "stream": true
+      }
+    ]
+  },
+  "bromeliad": {
+    "sounds": [
+      {
+        "name": "trick_update_1_20:bromeliad",
+        "stream": true
+      }
+    ]
+  },
+  "relic": {
+    "sounds": [
+      {
+        "name": "trick_update_1_20:relic",
+        "stream": true
       }
     ]
   }

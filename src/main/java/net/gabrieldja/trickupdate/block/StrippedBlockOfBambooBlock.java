@@ -1,6 +1,7 @@
 
 package net.gabrieldja.trickupdate.block;
 
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.common.util.ForgeSoundType;
 
 import net.minecraft.world.level.storage.loot.LootContext;
@@ -16,7 +17,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
@@ -29,9 +29,9 @@ public class StrippedBlockOfBambooBlock extends Block {
 
 	public StrippedBlockOfBambooBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_break")), () -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_footsteps")),
-						() -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_place")), () -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_breaking")),
-						() -> new SoundEvent(new ResourceLocation("trick_update_1_20:bamboo_block_falling"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("trick_update_1_20:bamboo_block_break")),
+						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("trick_update_1_20:bamboo_block_footsteps")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("trick_update_1_20:bamboo_block_place")),
+						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("trick_update_1_20:bamboo_block_breaking")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("trick_update_1_20:bamboo_block_falling"))))
 				.strength(2f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}

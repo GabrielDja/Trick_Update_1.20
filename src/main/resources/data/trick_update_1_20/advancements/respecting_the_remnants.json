@@ -1,0 +1,33 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "trick_update_1_20:suspicious_sand_stage_3"
+    },
+    "title": {
+      "translate": "advancements.respecting_the_remnants.title"
+    },
+    "description": {
+      "translate": "advancements.respecting_the_remnants.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "respecting_the_remnants": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "trick_update_1_20:brush"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 6
+  }
+}

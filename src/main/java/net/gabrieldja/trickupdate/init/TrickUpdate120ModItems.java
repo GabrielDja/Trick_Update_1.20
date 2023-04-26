@@ -36,6 +36,7 @@ import net.gabrieldja.trickupdate.item.PotteryShardPrizeItem;
 import net.gabrieldja.trickupdate.item.PotteryShardArmsUpItem;
 import net.gabrieldja.trickupdate.item.PotteryShardArcherItem;
 import net.gabrieldja.trickupdate.item.NetheriteArmorAmethystCoastItem;
+import net.gabrieldja.trickupdate.item.MusicDiscRelicItem;
 import net.gabrieldja.trickupdate.item.LigthBlockItem;
 import net.gabrieldja.trickupdate.item.IronGolemSpawnEggItem;
 import net.gabrieldja.trickupdate.item.IronArmorAmethystCoastItem;
@@ -165,6 +166,7 @@ public class TrickUpdate120ModItems {
 	public static final RegistryObject<Item> RAISER_ARMOR_TRIM_SMITHING_TEMPLATE = REGISTRY.register("raiser_armor_trim_smithing_template", () -> new RaiserArmorTrimSmithingTemplateItem());
 	public static final RegistryObject<Item> SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE = REGISTRY.register("shaper_armor_trim_smithing_template", () -> new ShaperArmorTrimSmithingTemplateItem());
 	public static final RegistryObject<Item> WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE = REGISTRY.register("wayfinder_armor_trim_smithing_template", () -> new WayfinderArmorTrimSmithingTemplateItem());
+	public static final RegistryObject<Item> MUSIC_DISC_RELIC = REGISTRY.register("music_disc_relic", () -> new MusicDiscRelicItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
